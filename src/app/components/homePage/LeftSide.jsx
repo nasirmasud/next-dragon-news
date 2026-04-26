@@ -7,7 +7,7 @@ const LeftSide = ({ categories, activeId }) => {
         <li key={category.category_id}>
           <Link
             href={`/category/${category.category_id}`}
-            className={`btn btn-ghost py-3 text-xl justify-start w-full 
+            className={`btn btn-ghost p-8 text-xl justify-start w-full 
       ${activeId === category.category_id ? "font-bold" : "font-normal"}`}
           >
             {category.category_name}
