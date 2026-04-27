@@ -13,7 +13,10 @@ export const roboto = Roboto_Slab({
 });
 
 export const metadata = {
-  title: "Next Dragon news",
+  title: {
+    default: "Next Dragon News | Home",
+    template: "Next Dragon News | %s",
+  },
   description: "Without Fear or Favour",
 };
 
