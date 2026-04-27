@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       suppressHydrationWarning
     >
       <body
-        className={`${poppins.className} min-h-full flex flex-col`}
+        className={`${poppins.className}${roboto.variable} min-h-full flex flex-col`}
         suppressHydrationWarning
       >
         {children}
