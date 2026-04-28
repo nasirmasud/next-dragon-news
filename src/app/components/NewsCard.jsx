@@ -35,7 +35,6 @@ const NewsCard = ({ data }) => {
             alt={data.title}
             fill
             className="object-cover"
-            priority
           />
         </div>
         <div className="space-y-3">
