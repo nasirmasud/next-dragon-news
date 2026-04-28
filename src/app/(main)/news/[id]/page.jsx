@@ -34,7 +34,6 @@ const NewsDetailsPage = async ({ params }) => {
               alt={news.title}
               fill
               className="object-cover"
-              priority
             />
           </div>
           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-950 leading-tight">

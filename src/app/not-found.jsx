@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { IoArrowBackOutline, IoHomeOutline, IoNewspaperOutline, IoSearchOutline } from 'react-icons/io5';
 
-
+// added test comment
 const notFound = () => {
   return (
     <div className="min-h-[70vh] flex flex-col items-center justify-center px-6 py-24 text-center">
